@@ -1,8 +1,8 @@
 {
-  "name": "ng2-page-slider",
-  "version": "0.10.1",
+  "name": "ng-page-slider",
+  "version": "0.0.1",
   "description": "Mimicks the functionality of UIPageViewController in pure HTML for mobile web apps with Angular 2.",
-  "repository": "https://github.com/KeatonTech/Angular-2-Page-Slider",
+  "repository": "https://github.com/mhadar/Angular-2-Page-Slider",
   "scripts": {
     "build": "ngc -p ./tsconfig.json && rollup -c",
     "examples": "concurrently \"npm run watchExamples\" \"npm run serveExamples\"",
