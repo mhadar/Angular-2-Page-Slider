@@ -1,5 +1,5 @@
 import { Attribute, Component, ContentChild, ContentChildren, Directive, ElementRef, EventEmitter, Input, NgModule, Output, TemplateRef, ViewContainerRef } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 var StackLocation = {};
 StackLocation.Previous = 0;
@@ -1164,7 +1164,7 @@ var PageSliderModule = (function () {
 PageSliderModule.decorators = [
     { type: NgModule, args: [{
                 imports: [
-                    BrowserModule
+                    CommonModule
                 ],
                 declarations: [
                     KBPageSliderComponent,
