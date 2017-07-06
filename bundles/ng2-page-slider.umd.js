@@ -1,8 +1,8 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/platform-browser')) :
-	typeof define === 'function' && define.amd ? define('ng2-page-slider', ['exports', '@angular/core', '@angular/platform-browser'], factory) :
+	typeof define === 'function' && define.amd ? define('ng-page-slider', ['exports', '@angular/core', '@angular/platform-browser'], factory) :
 	(factory((global.ng = global.ng || {}, global.ng.pageSlider = global.ng.pageSlider || {}),global.ng.core,global.ng.platformBrowser));
-}(this, (function (exports,_angular_core,_angular_platformBrowser) { 'use strict';
+}(this, (function (exports,_angular_core,_angular_platformCommon) { 'use strict';
 
 var StackLocation = {};
 StackLocation.Previous = 0;
@@ -1167,7 +1167,7 @@ var PageSliderModule = (function () {
 PageSliderModule.decorators = [
     { type: _angular_core.NgModule, args: [{
                 imports: [
-                    _angular_platformBrowser.BrowserModule
+                    _angular_platformCommon.CommonModule
                 ],
                 declarations: [
                     KBPageSliderComponent,

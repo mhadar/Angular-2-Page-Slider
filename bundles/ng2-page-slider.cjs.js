@@ -3,7 +3,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var _angular_core = require('@angular/core');
-var _angular_platformBrowser = require('@angular/platform-browser');
+var _angular_platformCommon = require('@angular/platform-common');
 
 var StackLocation = {};
 StackLocation.Previous = 0;
@@ -1168,7 +1168,7 @@ var PageSliderModule = (function () {
 PageSliderModule.decorators = [
     { type: _angular_core.NgModule, args: [{
                 imports: [
-                    _angular_platformBrowser.BrowserModule
+                    _angular_platformCommon.CommonModule
                 ],
                 declarations: [
                     KBPageSliderComponent,
