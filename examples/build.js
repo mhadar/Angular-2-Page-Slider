@@ -1149,17 +1149,17 @@ System.register("src/components/dotindicator.component", ["@angular/core"], func
  DEALINGS IN THE SOFTWARE.
 
  */
-System.register("index", ["@angular/core", "@angular/platform-browser", "src/components/pageslider.component", "src/components/render.component", "src/components/dotindicator.component", "src/components/navbutton.component"], function (exports_10, context_10) {
+System.register("index", ["@angular/core", "@angular/common", "src/components/pageslider.component", "src/components/render.component", "src/components/dotindicator.component", "src/components/navbutton.component"], function (exports_10, context_10) {
     "use strict";
     var __moduleName = context_10 && context_10.id;
-    var core_5, platform_browser_1, pageslider_component_1, render_component_3, dotindicator_component_1, navbutton_component_2, PageSliderModule;
+    var core_5, common_1, pageslider_component_1, render_component_3, dotindicator_component_1, navbutton_component_2, PageSliderModule;
     return {
         setters: [
             function (core_5_1) {
                 core_5 = core_5_1;
             },
-            function (platform_browser_1_1) {
-                platform_browser_1 = platform_browser_1_1;
+            function (common_1_1) {
+                common_1 = common_1_1;
             },
             function (pageslider_component_1_1) {
                 pageslider_component_1 = pageslider_component_1_1;
@@ -1207,7 +1207,7 @@ System.register("index", ["@angular/core", "@angular/platform-browser", "src/com
             PageSliderModule = __decorate([
                 core_5.NgModule({
                     imports: [
-                        platform_browser_1.BrowserModule
+                        common_1.CommonModule
                     ],
                     declarations: [
                         pageslider_component_1.KBPageSliderComponent,

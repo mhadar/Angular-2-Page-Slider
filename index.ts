@@ -25,7 +25,7 @@
  */
 
 import {NgModule}                from "@angular/core";
-import {BrowserModule}            from '@angular/platform-browser';
+import {CommonModule}            from '@angular/common';
 
 import {KBPageSliderComponent}    from "./src/components/pageslider.component";
 import {KBPagesRendererDirective} from "./src/components/render.component";
@@ -39,7 +39,7 @@ export * from "./src/components/navbutton.component";
 
 @NgModule({
 	imports: [
-		BrowserModule
+		CommonModule
 	],
 	declarations: [
 		KBPageSliderComponent,
