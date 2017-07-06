@@ -13,8 +13,8 @@
   "angularCompilerOptions": {
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
-    "flatModuleOutFile": "ng2-page-slider.js",
-    "flatModuleId": "ng2-page-slider",
+    "flatModuleOutFile": "ng-page-slider.js",
+    "flatModuleId": "ng-page-slider",
     "skipTemplateCodegen": true,
     "generateCodeForLibraries": false
   }
